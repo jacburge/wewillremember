@@ -86,4 +86,12 @@
 
 	});
 
+	setInterval(
+    function()
+    {
+        $("#who").toggle();
+        $("#we").toggle();
+    },
+    5000);
+
 })(jQuery);
