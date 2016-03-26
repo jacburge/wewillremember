@@ -5,13 +5,17 @@ from flask import render_template
 def index():
 	return render_template('index.html')
 
-@app.route('/generic/')
-def professional():
-	return render_template('generic.html')
+@app.route('/story/')
+def story():
+	return render_template('story.html')
 
-@app.route('/elements/')
-def creative():
-	return render_template('elements.html')
+@app.route('/bio/')
+def bio():
+	return render_template('bio.html')
+
+@app.route('/contact/')
+def contact():
+	return render_template('contact.html')
 
 # @app.route('/fun/')
 # def fun():
