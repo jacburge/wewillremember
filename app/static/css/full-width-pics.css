@@ -23,12 +23,24 @@ body {
 }
 
 .image-bg-fixed-height {
-	background: url('') no-repeat center center scroll;
+	background: url('../static/img/anim.mov') no-repeat center center scroll;
     height: 450px;
 }
 
 .img-center {
 	margin: 0 auto;
+}
+
+video.fullscreen { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
 }
 
 section {
@@ -52,6 +64,42 @@ footer {
     margin: 50px 0;
 }
 
+/************CUSTOM****************/
+.story-img {
+  width:60%;
+  height:auto;
+  border: 10px #A4A4A4 groove;
+}
+
+.getinvolved {
+  padding:2%;
+  border-radius:5px;
+  background-color: #2E2E2E;
+  color:white;
+  font-size:28px;
+}
+
+video 
+{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+.videoContainer 
+{
+    position:absolute;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+.videoContainer video 
+{
+    min-width: 100%;
+    min-height: 100%;
+}
+
 @media(max-width:768px) {
     section {
         padding-top: 25px;
@@ -61,4 +109,10 @@ footer {
     .section-heading {
         font-size: 2em;
     }
+
+    .story-img {
+        width:90%;
+        height:auto;
+        border: 10px #A4A4A4 groove;
+}
 }

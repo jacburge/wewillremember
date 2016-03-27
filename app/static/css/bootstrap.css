@@ -6759,17 +6759,4 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
-/************CUSTOM****************/
-.story-img {
-  width:50%;
-  height:auto;
-  border: 10px #A4A4A4 groove;
-}
 
-.getinvolved {
-  padding:2%;
-  border-radius:5px;
-  background-color: #2E2E2E;
-  color:white;
-  font-size:28px;
-}
