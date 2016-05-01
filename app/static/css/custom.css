@@ -4,15 +4,11 @@
 	text-transform: uppercase;
 }
 
-#title {
-	font-size: 36px !important;
-}
-
-#bio {
+#history {
 	display:none;
 }
 
-#dedication {
+#reviews {
 	display:none;
 }
 
@@ -21,4 +17,18 @@
 	position: relative;
 	width:80px;
 	height:80px;
+
+}
+
+#title {
+	font-size: 44px !important;
+}
+
+
+@media screen and (max-width: 480px) {
+
+	#title {
+	font-size: 24px !important;
+}
+
 }
