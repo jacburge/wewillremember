@@ -1,3 +1,7 @@
+## Jaclyn:
+
+This is a Bootstrap template for a Flask app. Run locally via "python run.py". HTML templates in use are in the "app" folder. The "old" folder is a prior version back-up, not in use. Images, CSS, and JS may be found in the "static" folder.
+
 # [Start Bootstrap](http://startbootstrap.com/) - [Full Width Pics](http://startbootstrap.com/template-overviews/full-width-pics/)
 
 [Full Width Pics](http://startbootstrap.com/template-overviews/full-width-pics/) is an HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features numerous full width background image content sections.
